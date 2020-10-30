@@ -36,3 +36,35 @@ target_link_libraries(
     ceres_example_3
     ${CERES_LIBRARIES}
 )
+
+add_executable(ceres_example_4
+    4_powell.cc
+)
+target_link_libraries(
+    ceres_example_4
+    ${CERES_LIBRARIES}
+)
+
+add_executable(ceres_example_5
+    5_curve_fitting.cc
+)
+target_link_libraries(
+    ceres_example_5
+    ${CERES_LIBRARIES}
+)
+
+add_executable(ceres_example_6
+    6_robust_curve_fitting.cc
+)
+target_link_libraries(
+    ceres_example_6
+    ${CERES_LIBRARIES}
+)
+
+add_executable(ceres_example_7
+    7_simple_bundle_adjuster.cc
+)
+target_link_libraries(
+    ceres_example_7
+    ${CERES_LIBRARIES}
+)
